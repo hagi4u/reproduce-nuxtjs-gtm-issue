@@ -42,7 +42,8 @@ export default {
     [
       '@nuxtjs/gtm',
       {
-        dev: true
+        dev: true,
+        autoInit: false
       },
     ]
   ],
